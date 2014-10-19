@@ -2,6 +2,6 @@ name := "scala-dashboard"
 
 version := "1.0"
 
-scalaVersion := "2.10.2"
+scalaVersion := "2.11.2"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "1.9.2" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.1" % "test"

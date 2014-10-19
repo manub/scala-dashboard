@@ -1,10 +1,12 @@
 package pokerhands
 
+import scala.collection.SortedMap
+
 object PokerHands {
 
   case class Winner(name: String, hand: String)
 
-  val cards = Map(
+  val cards = SortedMap(
     "2" -> "Two",
     "3" -> "Three",
     "4" -> "Four",
